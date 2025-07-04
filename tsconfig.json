@@ -1,0 +1,17 @@
+{
+	"extends": "./.nuxt/tsconfig.json",
+	"compilerOptions": {
+		"strict": true,
+		"skipLibCheck": true,
+		"moduleResolution": "node",
+		"module": "esnext",
+		"target": "esnext",
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["./*"],
+			"#imports": ["./.nuxt/imports"],
+			"#vue-utils": ["./.nuxt/vue-utils"]
+		},
+		"types": ["node", "nuxt", "@nuxt/types", "@types/node"]
+	}
+}
