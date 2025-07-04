@@ -60,7 +60,7 @@ export default defineNuxtConfig({
 
 ## Article
 
-Read the full integration guide: [How to Configure RDKit in Your Nuxt Project](link-to-article)
+Read the full integration guide: [How to Configure RDKit in Your Nuxt Project](https://medium.com/@Ojochogwu/how-to-configure-rdkit-in-your-nuxt-project-7ea162b9c415)
 
 ## License
 
